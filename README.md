@@ -1,14 +1,30 @@
 # bc-tech-club-project
 
 ### APIs
+host: `api.bctechclub.com`
 
-#### ksjdhfksjdhf
-
-- 123123
-- 123123
-
+#### homepage setting 
+url: `/index`
+method: `GET`
+response:
 ```
 {
-  "a": "b"
+  "icons": [
+    {
+      "img": "img url<str>",
+      "name": "icon name<str>",
+      "url": "url<url>"
+    }
+  ]
 }
 ```
+
+#### index list
+url: `/index_list`
+method: `GET`
+
+
+#### user info
+url: `/user_info`
+
+
